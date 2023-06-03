@@ -7,7 +7,7 @@ const store = configureStore({
   reducer: {
     counter: counterSlice,
     number: numberReducer,
-    users: usersReducer,
+    users: usersReducer
   },
   middleware: getDefaultMiddleware => (getDefaultMiddleware().concat(logger))
 })
