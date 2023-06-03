@@ -10,10 +10,8 @@ import DataApi from './components/DataApii'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
     <Provider store={store}>
-      <App />
-    </Provider>
-    <ApiProvider api={productApi} >
+        <App />
       <DataApi />
-    </ApiProvider>
+    </Provider>
   </>
 )
